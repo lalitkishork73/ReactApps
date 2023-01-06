@@ -1,2 +1,2 @@
 # ReactApps
-Created react application 
+Created React application 
