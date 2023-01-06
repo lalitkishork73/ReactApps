@@ -8,7 +8,6 @@ const App = () => {
         <>
             <Box sx={{ backgroundColor: '#000' }}>
                 <Navbar />
-                <h1>hi</h1>
                 <Routes>
                     <Route path='/' exact element={<Feed />} />
                     <Route path='/video/:id' exact element={<VideoDetail />} />
