@@ -3,7 +3,6 @@ import { Stack, Box } from '@mui/material'
 import { VideoCard, ChannelCard } from './'
 
 const Video = ({ video }) => {
-  console.log(video)
   return (
     <>
       <Stack
@@ -11,7 +10,6 @@ const Video = ({ video }) => {
         flexWrap="wrap"
         justifyContent="start"
         gap={2}
-
       >
         {video.map((item, idx) => (<>
           <Box key={idx}>
