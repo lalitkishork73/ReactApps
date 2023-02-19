@@ -2,11 +2,12 @@ import React from 'react'
 import { Stack, Box } from '@mui/material'
 import { VideoCard, ChannelCard } from './'
 
-const Video = ({ video }) => {
+const Video = ({ video, direction }) => {
+  if (!video?.length) return 'Loading...'
+
   return (
     <>
-      <Stack
-        direction="row"
+      <Stack direction={direction || "row"}
         flexWrap="wrap"
         justifyContent="start"
         gap={2}
