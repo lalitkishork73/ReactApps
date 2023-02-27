@@ -1,2 +1,2 @@
 # ReactApps
-Created React application 
+I have created a YouTube clone using React and the MUI (Material UI) library for the user interface, as well as the YouTube Data API v3 to retrieve and display video data. The clone mimics the basic functionality of the YouTube platform, allowing users to search for videos, play them, and view related videos. The Rapid API was used to make the API calls for retrieving data. Overall, the clone provides a user-friendly and visually appealing interface for browsing and watching YouTube videos.
